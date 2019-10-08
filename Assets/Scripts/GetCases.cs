@@ -85,6 +85,7 @@ public class GetCases : MonoBehaviour
                     style.alignment = TextAnchor.LowerCenter;
                     style.color = Color.black;
                     
+
                     j++;
 
                     yield return null;

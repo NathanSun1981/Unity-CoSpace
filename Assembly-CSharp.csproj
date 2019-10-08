@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\CaseCommand.cs" />
     <Compile Include="Assets\Scripts\CaseControl.cs" />
     <Compile Include="Assets\Scripts\CaseResponse.cs" />
+    <Compile Include="Assets\Scripts\CloseMenu.cs" />
     <Compile Include="Assets\Scripts\DetectClosestTouchMovement.cs" />
     <Compile Include="Assets\Scripts\DetectTouchMovement.cs" />
     <Compile Include="Assets\Scripts\GetCases.cs" />

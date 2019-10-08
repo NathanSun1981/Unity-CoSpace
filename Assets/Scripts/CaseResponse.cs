@@ -29,7 +29,7 @@ public class CaseResponse : MonoBehaviour
         //obj.transform.position = new Vector3 (this.transform.position.x, this.transform.position.y + 0.1f);
         obj.transform.localScale = this.transform.localScale;
         obj.transform.rotation = this.transform.rotation;
-        obj.AddComponent<UI2DanchoredPosition>();
+        obj.AddComponent<UI2DanchoredPosition>().tag = this.transform.parent.tag;
         obj.AddComponent<Rigidbody>().useGravity = false;
         obj.AddComponent<BoxCollider>().size = new Vector3 (this.GetComponent<RectTransform>().sizeDelta.x, this.GetComponent<RectTransform>().sizeDelta.y, 1f);
 

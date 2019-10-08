@@ -11,6 +11,9 @@ TagManager:
   - Buttons
   - Tile
   - Cases
+  - Left
+  - Right
+  - Down
   layers:
   - Default
   - TransparentFX

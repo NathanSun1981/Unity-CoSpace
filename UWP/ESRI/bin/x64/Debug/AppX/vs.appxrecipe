@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-04T20:40:50.795</Modified>
+      <Modified>2019-10-08T22:55:18.987</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\bin\x64\Debug\ESRI.exe">
       <PackagePath>entrypoint\ESRI.exe</PackagePath>
-      <Modified>2019-10-04T20:40:36.778</Modified>
+      <Modified>2019-10-08T22:55:04.240</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\.nuget\packages\microsoft.applicationinsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -536,11 +536,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\Resource.res">
       <PackagePath>Resource.res</PackagePath>
-      <Modified>2019-10-04T19:26:14.326</Modified>
+      <Modified>2019-10-08T22:43:39.041</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\StoreManifest.xml">
       <PackagePath>StoreManifest.xml</PackagePath>
-      <Modified>2019-10-04T19:26:04.522</Modified>
+      <Modified>2019-10-08T22:43:30.038</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -583,15 +583,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\Data\boot.config">
       <PackagePath>Data\boot.config</PackagePath>
-      <Modified>2019-10-04T19:26:03.662</Modified>
+      <Modified>2019-10-08T22:43:29.070</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\Data\globalgamemanagers">
       <PackagePath>Data\globalgamemanagers</PackagePath>
-      <Modified>2019-10-04T19:25:56.679</Modified>
+      <Modified>2019-10-08T22:43:18.958</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\Data\level0">
       <PackagePath>Data\level0</PackagePath>
-      <Modified>2019-10-04T19:25:48.792</Modified>
+      <Modified>2019-10-08T22:42:57.268</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
@@ -599,39 +599,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
-      <Modified>2019-10-04T19:26:03.651</Modified>
+      <Modified>2019-10-08T22:43:29.058</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
-      <Modified>2019-10-04T19:25:56.891</Modified>
+      <Modified>2019-10-08T22:43:19.148</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\Data\resources.assets">
       <PackagePath>Data\resources.assets</PackagePath>
-      <Modified>2019-10-04T19:26:01.709</Modified>
+      <Modified>2019-10-08T22:43:25.546</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
-      <Modified>2019-10-04T19:26:02.073</Modified>
+      <Modified>2019-10-08T22:43:25.910</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\Data\level0.resS">
       <PackagePath>Data\level0.resS</PackagePath>
-      <Modified>2019-10-04T19:25:48.782</Modified>
+      <Modified>2019-10-08T22:42:57.258</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\Data\resources.assets.resS">
       <PackagePath>Data\resources.assets.resS</PackagePath>
-      <Modified>2019-10-04T19:26:01.628</Modified>
+      <Modified>2019-10-08T22:43:25.439</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
-      <Modified>2019-10-04T19:26:02.069</Modified>
+      <Modified>2019-10-08T22:43:25.905</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\Data\managedAssemblies.txt">
       <PackagePath>Data\managedAssemblies.txt</PackagePath>
-      <Modified>2019-10-04T19:26:14.254</Modified>
+      <Modified>2019-10-08T22:43:38.972</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\Data\StreamingAssets\cases.json">
+      <PackagePath>Data\StreamingAssets\cases.json</PackagePath>
+      <Modified>2019-10-08T20:24:58.108</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\Data\StreamingAssets\tasks.json">
       <PackagePath>Data\StreamingAssets\tasks.json</PackagePath>
-      <Modified>2019-10-04T19:21:37.945</Modified>
+      <Modified>2019-10-08T22:09:52.720</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2018.4.8f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\dotnet\x64\Debug\WinPixEventRuntime_UAP.dll">
       <PackagePath>WinPixEventRuntime_UAP.dll</PackagePath>
@@ -651,235 +655,235 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-10-04T19:26:37.517</Modified>
+      <Modified>2019-10-08T22:44:31.342</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.StreamingModule.dll">
       <PackagePath>UnityEngine.StreamingModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:47.936</Modified>
+      <Modified>2019-10-08T22:55:15.957</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.StyleSheetsModule.dll">
       <PackagePath>UnityEngine.StyleSheetsModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:47.963</Modified>
+      <Modified>2019-10-08T22:55:15.990</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.SubstanceModule.dll">
       <PackagePath>UnityEngine.SubstanceModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:47.992</Modified>
+      <Modified>2019-10-08T22:55:16.021</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.TerrainModule.dll">
       <PackagePath>UnityEngine.TerrainModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:48.031</Modified>
+      <Modified>2019-10-08T22:55:16.060</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.TerrainPhysicsModule.dll">
       <PackagePath>UnityEngine.TerrainPhysicsModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:48.063</Modified>
+      <Modified>2019-10-08T22:55:16.091</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.TextCoreModule.dll">
       <PackagePath>UnityEngine.TextCoreModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:48.092</Modified>
+      <Modified>2019-10-08T22:55:16.120</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.TextRenderingModule.dll">
       <PackagePath>UnityEngine.TextRenderingModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:48.122</Modified>
+      <Modified>2019-10-08T22:55:16.153</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.TilemapModule.dll">
       <PackagePath>UnityEngine.TilemapModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:48.153</Modified>
+      <Modified>2019-10-08T22:55:16.188</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.UIElementsModule.dll">
       <PackagePath>UnityEngine.UIElementsModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:48.269</Modified>
+      <Modified>2019-10-08T22:55:16.296</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.UIModule.dll">
       <PackagePath>UnityEngine.UIModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:48.325</Modified>
+      <Modified>2019-10-08T22:55:16.352</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.UNETModule.dll">
       <PackagePath>UnityEngine.UNETModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:48.362</Modified>
+      <Modified>2019-10-08T22:55:16.397</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.UnityAnalyticsModule.dll">
       <PackagePath>UnityEngine.UnityAnalyticsModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:48.396</Modified>
+      <Modified>2019-10-08T22:55:16.433</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.UnityConnectModule.dll">
       <PackagePath>UnityEngine.UnityConnectModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:48.424</Modified>
+      <Modified>2019-10-08T22:55:16.466</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.UnityWebRequestAssetBundleModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestAssetBundleModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:48.449</Modified>
+      <Modified>2019-10-08T22:55:16.494</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.UnityWebRequestAudioModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestAudioModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:48.473</Modified>
+      <Modified>2019-10-08T22:55:16.521</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.UnityWebRequestModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:48.503</Modified>
+      <Modified>2019-10-08T22:55:16.553</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.UnityWebRequestTextureModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestTextureModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:48.537</Modified>
+      <Modified>2019-10-08T22:55:16.588</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.UnityWebRequestWWWModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestWWWModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:48.563</Modified>
+      <Modified>2019-10-08T22:55:16.615</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.VehiclesModule.dll">
       <PackagePath>UnityEngine.VehiclesModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:48.590</Modified>
+      <Modified>2019-10-08T22:55:16.645</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.VFXModule.dll">
       <PackagePath>UnityEngine.VFXModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:48.618</Modified>
+      <Modified>2019-10-08T22:55:16.675</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.VideoModule.dll">
       <PackagePath>UnityEngine.VideoModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:48.649</Modified>
+      <Modified>2019-10-08T22:55:16.709</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.VRModule.dll">
       <PackagePath>UnityEngine.VRModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:48.697</Modified>
+      <Modified>2019-10-08T22:55:16.760</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.WindModule.dll">
       <PackagePath>UnityEngine.WindModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:48.731</Modified>
+      <Modified>2019-10-08T22:55:16.795</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.SpriteShapeModule.dll">
       <PackagePath>UnityEngine.SpriteShapeModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:48.753</Modified>
+      <Modified>2019-10-08T22:55:16.823</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.XRModule.dll">
       <PackagePath>UnityEngine.XRModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:48.782</Modified>
+      <Modified>2019-10-08T22:55:16.852</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.SpriteMaskModule.dll">
       <PackagePath>UnityEngine.SpriteMaskModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:48.811</Modified>
+      <Modified>2019-10-08T22:55:16.885</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.SharedInternalsModule.dll">
       <PackagePath>UnityEngine.SharedInternalsModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:48.836</Modified>
+      <Modified>2019-10-08T22:55:16.912</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.AccessibilityModule.dll">
       <PackagePath>UnityEngine.AccessibilityModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:48.865</Modified>
+      <Modified>2019-10-08T22:55:16.945</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.AIModule.dll">
       <PackagePath>UnityEngine.AIModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:48.898</Modified>
+      <Modified>2019-10-08T22:55:16.974</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.AnimationModule.dll">
       <PackagePath>UnityEngine.AnimationModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:48.957</Modified>
+      <Modified>2019-10-08T22:55:17.023</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.ARModule.dll">
       <PackagePath>UnityEngine.ARModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:48.994</Modified>
+      <Modified>2019-10-08T22:55:17.060</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.AssetBundleModule.dll">
       <PackagePath>UnityEngine.AssetBundleModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:49.018</Modified>
+      <Modified>2019-10-08T22:55:17.088</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.AudioModule.dll">
       <PackagePath>UnityEngine.AudioModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:49.053</Modified>
+      <Modified>2019-10-08T22:55:17.129</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.ClothModule.dll">
       <PackagePath>UnityEngine.ClothModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:49.084</Modified>
+      <Modified>2019-10-08T22:55:17.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.CoreModule.dll">
       <PackagePath>UnityEngine.CoreModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:49.400</Modified>
+      <Modified>2019-10-08T22:55:17.540</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.CrashReportingModule.dll">
       <PackagePath>UnityEngine.CrashReportingModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:49.504</Modified>
+      <Modified>2019-10-08T22:55:17.656</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.DirectorModule.dll">
       <PackagePath>UnityEngine.DirectorModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:49.528</Modified>
+      <Modified>2019-10-08T22:55:17.689</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.dll">
       <PackagePath>UnityEngine.dll</PackagePath>
-      <Modified>2019-10-04T19:26:08.341</Modified>
+      <Modified>2019-10-08T22:43:33.558</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.GameCenterModule.dll">
       <PackagePath>UnityEngine.GameCenterModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:49.555</Modified>
+      <Modified>2019-10-08T22:55:17.721</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.GridModule.dll">
       <PackagePath>UnityEngine.GridModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:49.586</Modified>
+      <Modified>2019-10-08T22:55:17.750</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.ImageConversionModule.dll">
       <PackagePath>UnityEngine.ImageConversionModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:49.612</Modified>
+      <Modified>2019-10-08T22:55:17.774</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.IMGUIModule.dll">
       <PackagePath>UnityEngine.IMGUIModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:49.656</Modified>
+      <Modified>2019-10-08T22:55:17.826</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.InputModule.dll">
       <PackagePath>UnityEngine.InputModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:49.698</Modified>
+      <Modified>2019-10-08T22:55:17.865</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.JSONSerializeModule.dll">
       <PackagePath>UnityEngine.JSONSerializeModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:49.723</Modified>
+      <Modified>2019-10-08T22:55:17.890</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.LocalizationModule.dll">
       <PackagePath>UnityEngine.LocalizationModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:49.746</Modified>
+      <Modified>2019-10-08T22:55:17.914</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.ParticleSystemModule.dll">
       <PackagePath>UnityEngine.ParticleSystemModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:49.787</Modified>
+      <Modified>2019-10-08T22:55:17.957</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.PerformanceReportingModule.dll">
       <PackagePath>UnityEngine.PerformanceReportingModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:49.821</Modified>
+      <Modified>2019-10-08T22:55:17.992</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.Physics2DModule.dll">
       <PackagePath>UnityEngine.Physics2DModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:49.858</Modified>
+      <Modified>2019-10-08T22:55:18.027</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.PhysicsModule.dll">
       <PackagePath>UnityEngine.PhysicsModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:49.898</Modified>
+      <Modified>2019-10-08T22:55:18.068</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.ScreenCaptureModule.dll">
       <PackagePath>UnityEngine.ScreenCaptureModule.dll</PackagePath>
-      <Modified>2019-10-04T20:40:49.930</Modified>
+      <Modified>2019-10-08T22:55:18.100</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
-      <Modified>2019-10-04T20:40:49.992</Modified>
+      <Modified>2019-10-08T22:55:18.164</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.Timeline.dll">
       <PackagePath>UnityEngine.Timeline.dll</PackagePath>
-      <Modified>2019-10-04T20:40:50.055</Modified>
+      <Modified>2019-10-08T22:55:18.228</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.UI.dll">
       <PackagePath>UnityEngine.UI.dll</PackagePath>
-      <Modified>2019-10-04T20:40:50.164</Modified>
+      <Modified>2019-10-08T22:55:18.323</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.SpatialTracking.dll">
       <PackagePath>UnityEngine.SpatialTracking.dll</PackagePath>
-      <Modified>2019-10-04T20:40:50.214</Modified>
+      <Modified>2019-10-08T22:55:18.373</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\UnityEngine.Networking.dll">
       <PackagePath>UnityEngine.Networking.dll</PackagePath>
-      <Modified>2019-10-04T20:40:50.278</Modified>
+      <Modified>2019-10-08T22:55:18.434</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\Assembly-CSharp.dll">
       <PackagePath>Assembly-CSharp.dll</PackagePath>
-      <Modified>2019-10-04T20:40:47.900</Modified>
+      <Modified>2019-10-08T22:55:15.917</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\bin\x64\Debug\Core\ESRI.exe">
       <PackagePath>ESRI.exe</PackagePath>
-      <Modified>2019-10-04T20:40:50.782</Modified>
+      <Modified>2019-10-08T22:55:18.974</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

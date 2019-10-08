@@ -358,7 +358,7 @@
 
   <ItemGroup>
     <ProjectReference Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj">
-      <Project>{9e28d435-b0bc-4aba-bb05-d8739e70532c}</Project>
+      <Project>{ed324fa9-f96a-4f4c-a1b5-cc90f238760c}</Project>
       <Name>Assembly-CSharp</Name>
       <Private>False</Private>
     </ProjectReference>

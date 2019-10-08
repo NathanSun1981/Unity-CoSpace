@@ -1,5 +1,5 @@
 {
-  "loadedmap": "Default",
+  "loadedmap": "Revelstoke",
   "Tasks": [
     {
       "Name": "Default",
@@ -22,6 +22,30 @@
       "coordinates": {
         "Longitude": "-79.500931",
         "Latitude": "43.773257"
+      },
+      "Level": "16"
+    },
+    {
+      "Name": "Revelstoke",
+      "coordinates": {
+        "Longitude": "-118.202882",
+        "Latitude": "51.002035"
+      },
+      "Level": "16"
+    },
+    {
+      "Name": "VANCOUVER-GRANDVIEWWOODLANDS-1",
+      "coordinates": {
+        "Longitude": "-123.059722",
+        "Latitude": "49.284329"
+      },
+      "Level": "16"
+    },
+    {
+      "Name": "VANCOUVER-MARPOLE-1",
+      "coordinates": {
+        "Longitude": "-123.120123",
+        "Latitude": "49.214602"
       },
       "Level": "16"
     }

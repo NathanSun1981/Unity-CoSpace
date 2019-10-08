@@ -1,0 +1,2 @@
+C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\ESRI.csproj;x64
+C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x64

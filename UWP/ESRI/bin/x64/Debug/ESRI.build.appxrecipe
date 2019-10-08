@@ -473,6 +473,9 @@
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\Data\managedAssemblies.txt">
       <PackagePath>Data\managedAssemblies.txt</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\Data\StreamingAssets\cases.json">
+      <PackagePath>Data\StreamingAssets\cases.json</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace\UWP\ESRI\Data\StreamingAssets\tasks.json">
       <PackagePath>Data\StreamingAssets\tasks.json</PackagePath>
     </AppxPackagedFile>

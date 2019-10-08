@@ -20,6 +20,7 @@ Data\Resources\unity default resources
 Data\Resources\unity_builtin_extra
 Data\sharedassets0.assets
 Data\sharedassets0.assets.resS
+Data\StreamingAssets\cases.json
 Data\StreamingAssets\tasks.json
 Properties\Default.rd.xml
 Resource.res

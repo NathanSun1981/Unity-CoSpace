@@ -14,6 +14,7 @@ public class UI2DanchoredPosition: MonoBehaviour
     private RectTransform canvasRectTransform;
     public Touch touch;
     private DateTime m_datetime;
+    public string tag;
     void Start()
     {
         rectTransform = transform as RectTransform;
@@ -74,9 +75,10 @@ public class UI2DanchoredPosition: MonoBehaviour
         }
         else
         {
-            if (Vector3.Distance(transform.position, prePositon) > 0.08f && this.gameObject.tag == "Cases")
+            if (Vector3.Distance(transform.position, prePositon) > 0.04f && this.gameObject.tag == "Cases")
             {
                 GameObject instance = Instantiate(Resources.Load("SKPFiles/" + this.gameObject.name, typeof(GameObject))) as GameObject;
+                instance.tag = tag;
                 instance.AddComponent<CaseControl>();
                 instance.AddComponent<RectTransform>();
                 instance.name = this.gameObject.name;

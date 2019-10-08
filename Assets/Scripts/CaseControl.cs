@@ -4,6 +4,9 @@ using UnityEngine;
 using Esri.APP;
 using Esri.PrototypeLab.HoloLens.Unity;
 using System;
+using UnityEngine.UI;
+using System.IO;
+using Newtonsoft.Json.Linq;
 
 public class CaseControl : MonoBehaviour
     {
@@ -16,6 +19,7 @@ public class CaseControl : MonoBehaviour
         public Touch touch;
         private Coordinate coordinate;
         private DateTime m_datetime;
+        private Vector3 initScale;
 
 
         public enum ControlCommand { Rotate, Move, Zoom, Delete, Duplicate, information, None };
@@ -31,8 +35,8 @@ public class CaseControl : MonoBehaviour
             coordinate = GetCoordinateFromPosition(transform.localPosition);
             PreMapLevel = GameObject.Find("Map").GetComponent<MapLoading>()._place.Level;
             m_datetime = DateTime.Now;
-            transform.localScale = new Vector3(1f / Mathf.Pow(2, (21 - GameObject.Find("Map").GetComponent<MapLoading>()._place.Level)), 1f / Mathf.Pow(2, (21 - GameObject.Find("Map").GetComponent<MapLoading>()._place.Level)), 1f / Mathf.Pow(2, (21 - GameObject.Find("Map").GetComponent<MapLoading>()._place.Level)));
-
+            initScale = transform.localScale = new Vector3(1f / Mathf.Pow(2, (21 - GameObject.Find("Map").GetComponent<MapLoading>()._place.Level)), 1f / Mathf.Pow(2, (21 - GameObject.Find("Map").GetComponent<MapLoading>()._place.Level)), 1f / Mathf.Pow(2, (21 - GameObject.Find("Map").GetComponent<MapLoading>()._place.Level)));
+            
         //Debug.Log(canvas.renderMode);
 
         /*
@@ -86,6 +90,10 @@ public class CaseControl : MonoBehaviour
                 if (transform.Find("Menu") != null)
                 {
                     Destroy(transform.Find("Menu").gameObject);
+                }
+                if (transform.Find("ScrollInfoControl") != null)
+                {
+                    Destroy(transform.Find("ScrollInfoControl").gameObject);
                 }
             }
 
@@ -143,7 +151,45 @@ public class CaseControl : MonoBehaviour
                     break;
                 case "Info":
                     CaseControlCommand = ControlCommand.information;
-                    break;
+                    if (transform.Find("ScrollInfoControl") == null)
+                    {
+                        GameObject scrollInfoControl = (GameObject)Instantiate(Resources.Load("ScrollInfoControl"));
+                        scrollInfoControl.transform.SetParent(this.transform);
+                        scrollInfoControl.transform.name = "ScrollInfoControl";
+                        RectTransform rt = scrollInfoControl.GetComponent<RectTransform>();
+                        
+
+                        switch (this.gameObject.tag)
+                        {
+                            case "Down":
+                                rt.localPosition = new Vector3(0, 0, 0);
+                                rt.offsetMax = new Vector2(0, 50f);
+                                rt.offsetMin = new Vector2(150f, 0);
+                                break;
+                            case "Left":
+                                rt.localPosition = new Vector3(0, 0, -100);
+                                rt.offsetMax = new Vector2(0, 0);
+                                rt.offsetMin = new Vector2(0, 0);
+                                break;
+                            case "Right":
+                                rt.localPosition = new Vector3(0, 0, 100);
+                                rt.offsetMax = new Vector2(0, 0);
+                                rt.offsetMin = new Vector2(0, 0);
+                                break;
+                            default:
+                                rt.localPosition = new Vector3(0, 0, 0);
+                                rt.offsetMax = new Vector2(0, 50f);
+                                rt.offsetMin = new Vector2(150f, 0);
+                                break;
+                        }
+                    
+                        scrollInfoControl.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
+                        scrollInfoControl.transform.eulerAngles = transform.Find("Menu").transform.eulerAngles;
+                        scrollInfoControl.transform.Find("Image").Find("Text").GetComponent<Text>().text = GetCaseInfo(this.gameObject.name); ;
+
+                }
+
+                break;
                 case "Duplicate":
                     CaseControlCommand = ControlCommand.Duplicate;
                     break;
@@ -153,6 +199,34 @@ public class CaseControl : MonoBehaviour
 
             }
         }
+        string GetCaseInfo(string name)
+        {
+            string result = "no info";            
+            string filePath = Path.Combine(Application.streamingAssetsPath, "cases.json");
+
+            if (File.Exists(filePath))
+            {
+                string dataAsJson;
+                dataAsJson = File.ReadAllText(filePath);
+                var cases = Newtonsoft.Json.JsonConvert.DeserializeObject<JArray>(dataAsJson);
+                foreach (JObject dbcase in cases)
+                {
+                    if (dbcase.GetValue("_CaseNumber").ToString().Equals(name))
+                    {
+                        return dbcase.ToString();
+                    }
+                }
+               
+            }
+            else
+            {
+                Debug.LogError("Cannot load task data!");
+            }
+
+            return result;
+
+        }
+
         public void DetectTouchAndGenerateMenu()
         {
 
@@ -196,9 +270,28 @@ public class CaseControl : MonoBehaviour
                                     GameObject menu = (GameObject)Instantiate(Resources.Load("Menu"));
                                     menu.name = "Menu";
                                     menu.transform.SetParent(this.transform);
-                                    menu.transform.localPosition = this.transform.localPosition + new Vector3(-50f, 100f, 0f);
                                     menu.transform.localScale = new Vector3(0.02f, 0.02f, 0.02f) * Mathf.Pow(2, (21 - GameObject.Find("Map").GetComponent<MapLoading>()._place.Level));
-                                    menu.transform.rotation = this.transform.parent.GetComponent<Transform>().rotation;
+                                    switch(this.gameObject.tag)
+                                    {
+                                        case "Down":
+                                            menu.transform.localPosition = this.transform.localPosition + new Vector3(-50f, 100f, 0f);
+                                            menu.transform.eulerAngles = new Vector3(90,0,180);
+                                            break;
+                                        case "Left":
+                                            menu.transform.localPosition = this.transform.localPosition + new Vector3(0f, 100f, 50f);
+                                            menu.transform.eulerAngles = new Vector3(90, 90, 180);
+                                            break;
+                                        case "Right":
+                                            menu.transform.localPosition = this.transform.localPosition + new Vector3(0f, 100f, -50f);
+                                            menu.transform.eulerAngles = new Vector3(90, -90, 180);
+                                            break;
+                                        default:
+                                            menu.transform.localPosition = this.transform.localPosition + new Vector3(-50f, 100f, 0f);
+                                            menu.transform.eulerAngles = new Vector3();
+                                            break;
+                                    }
+
+                                    
                                 }
                                
 
@@ -276,11 +369,17 @@ public class CaseControl : MonoBehaviour
             {
                 //Debug.Log(1 + DetectClosestTouchMovement.pinchAmount / 50);
                 this.gameObject.transform.localScale *= (1 + DetectClosestTouchMovement.pinchAmount / 50);
+
+            this.gameObject.transform.localScale = new Vector3(Mathf.Clamp(this.gameObject.transform.localScale.x, initScale.x / 1.2f, initScale.x * 1.2f),
+                Mathf.Clamp(this.gameObject.transform.localScale.y, initScale.y / 1.2f, initScale.y * 1.2f),
+                Mathf.Clamp(this.gameObject.transform.localScale.z, initScale.z / 1.2f, initScale.z * 1.2f));
+                /*
                 if (transform.Find("Menu") != null)
                 {
                     
                     transform.Find("Menu").localScale /= (1 + DetectClosestTouchMovement.pinchAmount / 50);
                 }
+                */
                    
         }
         }
