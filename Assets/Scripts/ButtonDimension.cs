@@ -25,8 +25,8 @@ public class ButtonDimension : MonoBehaviour {
         {
             GetComponentInChildren<Text>().text = "2D";
         }
-        GameObject ca = GameObject.Find("Camera");
-        ca.SendMessage("OnChangeDimension", text);
+        //GameObject ca = GameObject.Find("Camera");
+        //ca.SendMessage("OnChangeDimension", text);
         GameObject map = GameObject.Find("Map");
         map.SendMessage("OnChangeDimension", text);
     }

@@ -16,7 +16,7 @@
 
 namespace Esri.PrototypeLab.HoloLens.Unity {
     public class Coordinate {
-        public float Latitude { get; set; }
-        public float Longitude { get; set; }
+        public double Latitude { get; set; }
+        public double Longitude { get; set; }
     }
 }

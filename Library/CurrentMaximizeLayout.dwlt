@@ -20,10 +20,10 @@ MonoBehaviour:
     y: 30
     width: 2237
     height: 1355
-  m_MinSize: {x: 713, y: 598}
-  m_MaxSize: {x: 18008, y: 18048}
+  m_MinSize: {x: 713, y: 622}
+  m_MaxSize: {x: 18008, y: 18072}
   vertical: 1
-  controlID: 1796
+  controlID: 1920
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -126,10 +126,10 @@ MonoBehaviour:
     y: 0
     width: 2237
     height: 1355
-  m_MinSize: {x: 713, y: 598}
-  m_MaxSize: {x: 18008, y: 18048}
+  m_MinSize: {x: 713, y: 622}
+  m_MaxSize: {x: 18008, y: 18072}
   vertical: 0
-  controlID: 1797
+  controlID: 1921
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -152,10 +152,10 @@ MonoBehaviour:
     y: 0
     width: 508
     height: 1355
-  m_MinSize: {x: 232, y: 598}
-  m_MaxSize: {x: 10002, y: 18048}
+  m_MinSize: {x: 232, y: 622}
+  m_MaxSize: {x: 10002, y: 18072}
   vertical: 1
-  controlID: 1750
+  controlID: 1889
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -175,8 +175,8 @@ MonoBehaviour:
     y: 0
     width: 508
     height: 479
-  m_MinSize: {x: 202, y: 224}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -213,7 +213,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: feb8feffa4befeff54cffeffeac4ffffb4fbffff36870000
+      m_ExpandedIDs: acfbffffb4fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -256,8 +256,8 @@ MonoBehaviour:
     y: 479
     width: 508
     height: 378
-  m_MinSize: {x: 232, y: 274}
-  m_MaxSize: {x: 10002, y: 10024}
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 8}
   m_Panes:
   - {fileID: 8}
@@ -301,20 +301,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources/SKPFiles
+    - Assets/UnitySlippyMap/Layers
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Resources/SKPFiles
+  - Assets/UnitySlippyMap/Layers
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\xixih\Documents\Mitacs-ESRI\Unity-CoSpace
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 52210000
-    m_LastClickedID: 8530
-    m_ExpandedIDs: 0000000072080000a40900002a190000522100008e29000052300000c03c00001a8800001c8800001e88000020880000228800002488000026880000288800002a8800002c8800002e88000030880000328800003488000036880000388800003a8800003c8800003e88000040880000428800004488000000ca9a3b
+    scrollPos: {x: 0, y: 123}
+    m_SelectedIDs: 3c110000
+    m_LastClickedID: 4412
+    m_ExpandedIDs: 000000005a0a0000900b00009c1b0000f0230000522c00002e330000f23f0000c6530000326a00004a8d00004c8d00004e8d0000508d0000528d0000548d0000568d0000588d00005a8d00005c8d00005e8d0000608d0000628d0000648d0000668d0000688d00006a8d00006c8d00006e8d0000708d0000728d0000748d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -342,7 +342,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000072080000a40900002a1900008e29000052300000c03c00001a8800001c8800001e88000020880000228800002488000026880000288800002a8800002c8800002e88000030880000328800003488000036880000388800003a8800003c8800003e88000040880000428800004488000000ca9a3b
+    m_ExpandedIDs: 000000005a0a0000900b00009c1b0000f0230000522c00002e330000f23f0000c6530000326a00004a8d00004c8d00004e8d0000508d0000528d0000548d0000568d0000588d00005a8d00005c8d00005e8d0000608d0000628d0000648d0000668d0000688d00006a8d00006c8d00006e8d0000708d0000728d0000748d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -367,9 +367,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 3c490000
-    m_LastClickedInstanceID: 18748
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: acfbffff
+    m_LastClickedInstanceID: -1108
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: ce3a000090290000c2370000a4290000942900005c2d00006c2d00007c2b0000842900004a0600007e2900005e2a0000302a00004a2a00006e2a0000542a0000e4290000522a00002e2a0000ce070000082a0000b22a0000f62a000092390000a63900002e2b00002c350000662d0000dc290000f425fbffaa2d0000bc06eaff662a000056fdeaff202c000044f3feff6a0600001ae4fdff0e32000070060000382b0000f02a0000722a0000022a0000c6affcff16320000442a0000a22a0000d02a00000e2b00006e060000f6330000882a0000e2290000c45dfbffe6290000002a0000962f00001e2a00003a2a00004e2e00004c2c0000382c00003cb5feff0c2d0000922e0000a83800008a320000be380000882c000076bffdffb253000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -416,8 +416,8 @@ MonoBehaviour:
     y: 857
     width: 508
     height: 498
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 102, y: 124}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
@@ -509,9 +509,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 4.333334, y: 0.10000086, z: 6.2872124}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: 4.333334, y: 0.10000086, z: 6.2872124}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -539,13 +539,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.67504317, y: -0.12961666, z: 0.12221096, w: 0.71594745}
+    m_Target: {x: 0.7294223, y: -0.004515735, z: 0.004815981, w: 0.68403184}
     speed: 2
-    m_Value: {x: 0.67504317, y: -0.12961666, z: 0.12221096, w: 0.71594745}
+    m_Value: {x: 0.7294223, y: -0.004515735, z: 0.004815981, w: 0.68403184}
   m_Size:
-    m_Target: 6.9877715
+    m_Target: 22
     speed: 2
-    m_Value: 6.9877715
+    m_Value: 22
   m_Ortho:
     m_Target: 1
     speed: 2

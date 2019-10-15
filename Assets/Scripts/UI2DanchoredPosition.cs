@@ -1,13 +1,16 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
-using UnityEngine.Networking;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
-public class UI2DanchoredPosition: MonoBehaviour
+
+public class UI2DanchoredPosition : MonoBehaviour, IPointerEnterHandler
 {
     private Vector3 prePositon;
-    private Canvas canvas;
+    private Canvas canvas;
     private RectTransform rectTransform;
     private Vector2 pos;
     private Camera _camera;
@@ -15,6 +18,7 @@ public class UI2DanchoredPosition: MonoBehaviour
     public Touch touch;
     private DateTime m_datetime;
     public string tag;
+    private Touch currentTouch;
     void Start()
     {
         rectTransform = transform as RectTransform;
@@ -25,24 +29,88 @@ public class UI2DanchoredPosition: MonoBehaviour
         m_datetime = DateTime.Now;
         //Debug.Log(canvas.renderMode);
 
+        Button btn = this.GetComponent<Button>();
+        btn.onClick.AddListener(() => OnClick(Input.mousePosition));
+
     }
     void Update()
     {
         FollowFingerMove();
     }
+
+    public void OnClick(Vector2 touchPosition)
+    {
+
+        Debug.Log(EventSystem.current.currentSelectedGameObject.name);
+
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        var touches = Input.touches.Where(i => i.position == eventData.position).ToList();
+        currentTouch = touches[0];
+    }
+
+
     public void FollowFingerMove()
     {
+
+
         DateTime dTimeNow = DateTime.Now;
         TimeSpan ts = dTimeNow.Subtract(m_datetime);
         float tsf = float.Parse(ts.TotalSeconds.ToString());
+
+        /*
+        if (currentTouch.phase == TouchPhase.Moved)
+        {
+            if (RenderMode.ScreenSpaceCamera == canvas.renderMode)
+            {
+                RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRectTransform, currentTouch.position, canvas.worldCamera, out pos);
+            }
+            else if (RenderMode.ScreenSpaceOverlay == canvas.renderMode)
+            {
+                RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRectTransform, currentTouch.position, _camera, out pos);
+            }
+            else
+            {
+                Debug.Log("Please choose right Camera RenderMode!");
+            }
+            rectTransform.anchoredPosition = pos;
+        }
+        */
+
+
+        
         if (Input.touchCount > 0)
-        {          
+        {
+
+            Debug.Log("touchcount  = " + Input.touchCount);
             for (int i = 0; i < Input.touchCount; i++)
             {
                 Touch touch = Input.touches[i];
 
-                //Debug.Log(i.ToString() + ":" + touch.phase.ToString());
+                if (EventSystem.current.currentSelectedGameObject == this.gameObject)
+                {
 
+                    Debug.Log(this.gameObject.name + "FingerID = " + Input.touches[i].fingerId);
+                    m_datetime = DateTime.Now;
+                    //worldCamera:1.screenSpace-Camera 
+                    //canvas.GetComponent<Camera>() 1.ScreenSpace -Overlay 
+                    if (RenderMode.ScreenSpaceCamera == canvas.renderMode)
+                    {
+                        RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRectTransform, touch.position, canvas.worldCamera, out pos);
+                    }
+                    else if (RenderMode.ScreenSpaceOverlay == canvas.renderMode)
+                    {
+                        RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRectTransform, touch.position, _camera, out pos);
+                    }
+                    else
+                    {
+                        Debug.Log("Please choose right Camera RenderMode!");
+                    }
+                    rectTransform.anchoredPosition = pos;
+                }
+                
                 Ray ray = Camera.main.ScreenPointToRay(touch.position);
                 RaycastHit hitInfo;
 
@@ -71,6 +139,7 @@ public class UI2DanchoredPosition: MonoBehaviour
                     }                                     
                 }
                 
+                
             }
         }
         else
@@ -79,10 +148,10 @@ public class UI2DanchoredPosition: MonoBehaviour
             {
                 GameObject instance = Instantiate(Resources.Load("SKPFiles/" + this.gameObject.name, typeof(GameObject))) as GameObject;
                 instance.tag = tag;
-                instance.AddComponent<CaseControl>();
+                //instance.AddComponent<CaseControl>();
                 instance.AddComponent<RectTransform>();
                 instance.name = this.gameObject.name;
-                instance.transform.SetParent(GameObject.Find("MapCanvas").transform);
+                //instance.transform.SetParent(GameObject.Find("MapCanvas").transform);
                 instance.transform.localScale = new Vector3(0.02f, 0.02f, 0.02f);               
 
                 
@@ -133,12 +202,15 @@ public class UI2DanchoredPosition: MonoBehaviour
                 Destroy(this.gameObject);
 
             }
+            
             else if (tsf > 2)
             {              
                 Destroy(this.gameObject);
 
             }
+            
         }
+        
 
     }
 
@@ -149,5 +221,6 @@ public class UI2DanchoredPosition: MonoBehaviour
         else
             return FindUpParent(zi.parent);
     }
+
 
 }
